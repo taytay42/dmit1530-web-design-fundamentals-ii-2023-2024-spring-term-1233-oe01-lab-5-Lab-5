@@ -34,22 +34,117 @@ h1 {
 
 
 /* Header */
+header{
+    background-color: #684551;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 40rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 2em;
+    height: auto;
+}
 
 /* Hero Banner */
 
+.hero{
+    background-image: url('../img/hero.webp');
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* Parallax */
 
+section.parallax {
+    background: url('../img/splash.webp') center / cover no-repeat fixed;
+}
 
+.inner-container{
+   
+}
 
 /* Horizontal Scroll */
 
+.horiz-scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+
+.scroll-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5rem;
+    overflow-x: scroll;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.2rem;
+    box-shadow: 3px 3px 3px #eee;
+    flex: 0 0 24rem;
+    margin: 2rem 1rem;
+}
+
+.card img {
+    border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+    background-color: #e2e2e2;
+    width: 0.5rem;
+    height: 0.4rem;
+}
+
+.scroll-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background-color: #dca530;
+}
 
 /* Footer */
 
+footer{
+    background-color: #684551;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.sign-up{
+    display: flex;
+}
+
+.horiz-flex{
+    display: flex;
+    gap: 15rem;
+}
 
 @media screen and (min-width: 50rem) {
 
